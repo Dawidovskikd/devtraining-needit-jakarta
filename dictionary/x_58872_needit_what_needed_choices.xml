@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="What Needed Choices" max_length="40" name="x_58872_needit_what_needed_choices" type="collection">
+        <element choice="1" label="Choice" max_length="40" name="choice" type="choice">
+            <choice/>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Request Type" max_length="40" name="request_type" reference="x_58872_needit_needit" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
